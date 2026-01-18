@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">maitre composteur</string>
+    <string name="title_activity_main">maitre composteur</string>
+    <string name="package_name">com.jojolas.compost</string>
+    <string name="custom_url_scheme">com.jojolas.compost</string>
+</resources>

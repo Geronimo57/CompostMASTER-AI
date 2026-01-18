@@ -1,0 +1,7 @@
+{
+  "name": "CompostMaster AI",
+  "description": "Votre assistant intelligent pour un compostage réussi. Identifiez vos déchets en photo, obtenez des conseils personnalisés et résolvez les problèmes de votre composteur grâce à l'IA.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
