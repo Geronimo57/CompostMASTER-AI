@@ -66,7 +66,7 @@ export default async function handler(req: any, res: any) {
     if (type === "image") {
       // Modèle Flash 1.5 : Sobriété numérique, rapide et excellent en vision
       const response = await ai.models.generateContent({
-        model: "gemini-1.5-flash",
+        model: "ggemini-2.5-flash-lite",
         contents: [
           {
             role: "user",
@@ -104,7 +104,7 @@ Réponds UNIQUEMENT en JSON selon le schéma fourni.` }
     } else {
       // Modèle Flash 1.5 pour le chat : équilibre parfait entre coût (0€) et intelligence
       const chat = ai.chats.create({
-        model: "gemini-1.5-flash",
+        model: "gemini-2.5-flash-lite",
         history: history,
         config: { systemInstruction: COMPOS_MASTER_INSTRUCTIONS }
       });
