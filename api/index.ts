@@ -64,9 +64,9 @@ export default async function handler(req: any, res: any) {
 
   try {
     if (type === "image") {
-      // Modèle Flash 1.5 : Sobriété numérique, rapide et excellent en vision
+      
       const response = await ai.models.generateContent({
-        model: "ggemini-2.5-flash-lite",
+        model: "gemini-2.5-flash-lite",
         contents: [
           {
             role: "user",
